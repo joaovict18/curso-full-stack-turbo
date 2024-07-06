@@ -1,0 +1,215 @@
+/* Seção Tags */
+
+body {
+    font-family: 'Montserrat, sans-serif';
+    text-align: center;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat-Bold';
+}
+
+p {
+    color: #8f8f8f
+}
+
+/* Heading */
+
+.big-heading {
+    font-family: 'Montserrat-Black, sans-serif';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+button {
+    font-family: 'Montserrat';
+}
+
+/* Seção IDs */
+
+
+/* title section */
+
+#features {
+    position: relative;
+    z-index: 1;
+}
+
+.features-title {
+    font-size: 1.5rem;
+}
+
+#press {
+    padding-bottom: 3%;
+}
+#pricing {
+    padding: 100px;
+}
+
+
+#cta {
+    height: 30%;
+    position: relative;
+}
+
+#foot {
+    height: 200px;
+    position: relative;
+}
+
+/* Seção Classes */
+
+#title .container-fluid {
+    background-color: #051d35;
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* container section */
+
+.container-fluid {
+    padding: 7% 15% 7%;
+}
+
+/* section */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 21%;
+}
+
+/*.feature-box {
+    padding: 5%;
+}*/
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* responsividade */
+
+@media (max-width: 992px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        margin-top: 3%;
+    }
+
+    .cta-buttons {
+        top: 90%;
+        margin-top: 5%;
+    }
+
+    .cta-title {
+        padding-bottom: 10%;
+    }
+}
+
+.cta-title {
+    color: #fff;
+    padding: 15%; /* ! USAR O LINE HEIGHT TAMBÉM FUNCIONARIA  */ 
+    font-size: 2.5rem;
+}
+
+.cta-buttons {
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    bottom: -5rem;
+}
+
+
+
+.centro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-ul {
+    padding: 0;
+}
+
+.footer-li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+
+.footer-ico {
+    color: black;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
