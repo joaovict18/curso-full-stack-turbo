@@ -1,2 +1,2 @@
-# curso-full-stack-turbo
-Repositório para guardar os arquivos do curso Full Stack Turbo disponibilizado pela TipsCode.
+# Curso Full Stack Turbo
+Aqui constarão arquivos de projetos realizados durante o curso.
